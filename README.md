@@ -3,10 +3,6 @@
 reference:
 [Create A REST API For ToDo App With Authentication Using Lumen](https://www.cloudways.com/blog/lumen-rest-api-authentication/)
 
-##### demo account: 
-- email: yctest@test.com.tw
-- password: 123456
-
 ##### 0. signup
 - url: http://www.voicetube.ml/api/signup
 - method: post
@@ -16,6 +12,10 @@ reference:
 - url: http://www.voicetube.ml/api/login
 - method: post
 - mandatory field: email, password
+
+##### demo account: 
+- email: yctest@test.com.tw
+- password: 123456
 
 ##### 2. get all to-do lists
 - url: http://www.voicetube.ml/api/todo
