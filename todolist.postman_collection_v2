@@ -1,0 +1,430 @@
+{
+	"variables": [],
+	"info": {
+		"name": "todolist",
+		"_postman_id": "45d2c3bd-0d82-b30f-206f-ac8cce30739d",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "signup",
+			"request": {
+				"url": "http://www.voicetube.ml/api/signup",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bearer amNRejBqd3RGd3pRak5ZZ0RFQmx1QnZoOTNHcG56cG5tVTl3NG9XVw==",
+						"description": "",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "yc",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "yctest3@test.com.tw",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"url": "http://www.voicetube.ml/api/login",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "yctest@test.com.tw",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get all todolist",
+			"request": {
+				"url": "http://www.voicetube.ml/api/todo",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bearer OTJuV3B3TXZKM2NYaEc2eGNJMjhOVVR0YmNtandKMFhKdHNNbjVoQw==",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "yc",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "yc",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "yc@tvbs.com.tw",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMjA2LjE4OS4zOC43My9hcGkvYXV0aC9sb2dpbiIsImlhdCI6MTUzNTg2MDU3NiwiZXhwIjoxNTM1ODY0MTc2LCJuYmYiOjE1MzU4NjA1NzYsImp0aSI6IkpMbzB1ZzVHaUg5cmE3ckQiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.6dbCMPxAF8ZXvcrmgJD64o1qLZ4diHchM-R98P5OcGU",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "todo",
+							"value": "testing123",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "testing123 with laravel",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "test",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "title",
+							"value": "testing123",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "testing123 with laravel",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "attachment",
+							"description": "",
+							"type": "file",
+							"src": "shortenurl.png"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get single todolist",
+			"request": {
+				"url": "http://www.voicetube.ml/api/todo/10",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bearer b05mOUpDU05HMVd6MkQxV09nb0drNmxTb1V1a2ZWRWN4S0JmSUJpQg==",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "yc",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "yc",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "yc@tvbs.com.tw",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMjA2LjE4OS4zOC43My9hcGkvYXV0aC9sb2dpbiIsImlhdCI6MTUzNTg2MDU3NiwiZXhwIjoxNTM1ODY0MTc2LCJuYmYiOjE1MzU4NjA1NzYsImp0aSI6IkpMbzB1ZzVHaUg5cmE3ckQiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.6dbCMPxAF8ZXvcrmgJD64o1qLZ4diHchM-R98P5OcGU",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "todo",
+							"value": "testing123",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "testing123 with laravel",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "test",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "title",
+							"value": "testing123",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "testing123 with laravel",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "attachment",
+							"description": "",
+							"type": "file",
+							"src": "shortenurl.png"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "create todolist",
+			"request": {
+				"url": "http://www.voicetube.ml/api/todo",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bearer OTJuV3B3TXZKM2NYaEc2eGNJMjhOVVR0YmNtandKMFhKdHNNbjVoQw==",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "testing123",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "testing123 with laravel",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "attachment",
+							"description": "",
+							"type": "file",
+							"src": "shortenurl.png"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "update single todolist",
+			"request": {
+				"url": "http://www.voicetube.ml/api/todo/11",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bearer OTJuV3B3TXZKM2NYaEc2eGNJMjhOVVR0YmNtandKMFhKdHNNbjVoQw==",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "testing321",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "content",
+							"value": "testing321 with laravel",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "attachment",
+							"description": "",
+							"type": "file",
+							"src": "FEUAFsQ6SQC_ASzIq6QYJdtB1cv3xaNyzWtdFZgTk-A.jpg"
+						},
+						{
+							"key": "done_at",
+							"value": "2018-09-02 23:45:00",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "delete single todolist",
+			"request": {
+				"url": "http://www.voicetube.ml/api/todo/10",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bearer b05mOUpDU05HMVd6MkQxV09nb0drNmxTb1V1a2ZWRWN4S0JmSUJpQg==",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "delete all todolist",
+			"request": {
+				"url": "http://www.voicetube.ml/api/todo/all",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "bearer b05mOUpDU05HMVd6MkQxV09nb0drNmxTb1V1a2ZWRWN4S0JmSUJpQg==",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "refresh token",
+			"request": {
+				"url": {
+					"raw": "http://www.voicetube.ml/api/refreshtoken?token=b05mOUpDU05HMVd6MkQxV09nb0drNmxTb1V1a2ZWRWN4S0JmSUJpQg==",
+					"protocol": "http",
+					"host": [
+						"www",
+						"voicetube",
+						"ml"
+					],
+					"path": [
+						"api",
+						"refreshtoken"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "b05mOUpDU05HMVd6MkQxV09nb0drNmxTb1V1a2ZWRWN4S0JmSUJpQg==",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "token status",
+			"request": {
+				"url": {
+					"raw": "http://www.voicetube.ml/api/tokenstatus?token=OTJuV3B3TXZKM2NYaEc2eGNJMjhOVVR0YmNtandKMFhKdHNNbjVoQw==",
+					"protocol": "http",
+					"host": [
+						"www",
+						"voicetube",
+						"ml"
+					],
+					"path": [
+						"api",
+						"tokenstatus"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": "OTJuV3B3TXZKM2NYaEc2eGNJMjhOVVR0YmNtandKMFhKdHNNbjVoQw==",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
