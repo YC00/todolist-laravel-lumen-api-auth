@@ -21,6 +21,7 @@ class CreateUsersTable extends Migration
             $table->string('userimage')->nullable();
             $table->string('api_key')->nullable()->unique();
             $table->rememberToken();
+            $table->dateTime('expired_at')->nullable();
             $table->timestamps();
         });
     }
